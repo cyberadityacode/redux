@@ -1,0 +1,50 @@
+49
+66C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\dist133978477723685132 1
+90C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\src\types133978473229084738 1
+71C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\readme.md133978476715174347 0
+72C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\index.html133978474471786733 0
+103C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\dist\cjs\redux.cjs.map133978473227819241 0
+93C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\.package-lock.json133978473229407634 0
+74C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules133978473229397627 1
+71C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\script.js133978477722193250 0
+79C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\package-lock.json133978473229377627 0
+74C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\package.json133978473229307683 0
+80C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux133978473228327002 1
+99C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\dist\cjs\redux.cjs133978473227108390 0
+111C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\src\utils\symbol-observable.ts133978473229164694 0
+85C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\dist133978473228924789 1
+91C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\LICENSE.md133978473228035963 0
+93C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\package.json133978473227288687 0
+90C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\README.md133978473228085956 0
+84C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\src133978473228737985 1
+103C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\src\applyMiddleware.ts133978473228454996 0
+106C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\src\bindActionCreators.ts133978473228500653 0
+96C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\dist\redux.d.ts133978473229054756 0
+103C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\src\combineReducers.ts133978473228564307 0
+93C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\src\index.ts133978473228761407 0
+95C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\src\compose.ts133978473228596197 0
+105C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\dist\redux.legacy-esm.js133978473227228413 0
+89C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\dist\cjs133978473227491715 1
+99C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\src\createStore.ts133978473228698004 0
+90C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\src\utils133978473229184695 1
+77C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\dist\index.html133978474570092832 0
+105C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\src\utils\actionTypes.ts133978473228415018 0
+100C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\src\utils\kindOf.ts133978473228844687 0
+116C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\src\utils\formatProdErrorMessage.ts133978473228718004 0
+95C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\dist\redux.mjs133978473228306996 0
+102C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\src\utils\isAction.ts133978473228771437 0
+107C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\src\utils\isPlainObject.ts133978473228811399 0
+101C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\src\utils\warning.ts133978473229230758 0
+101C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\src\types\actions.ts133978473228366954 0
+104C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\src\types\middleware.ts133978473228894677 0
+102C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\src\types\reducers.ts133978473228917653 0
+99C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\src\types\store.ts133978473229144716 0
+103C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\dist\redux.browser.mjs133978473228155938 0
+107C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\dist\redux.browser.mjs.map133978473227471728 0
+99C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\node_modules\redux\dist\redux.mjs.map133978473227996261 0
+96C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\dist\00 Intro to Redux.3464ddca.js133978471914823930 0
+100C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\dist\00 Intro to Redux.3464ddca.js.map133978471915217968 0
+96C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\dist\00 Intro to Redux.3c14d121.js133978477723396644 0
+100C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\dist\00 Intro to Redux.3c14d121.js.map133978477723635114 0
+96C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\dist\00 Intro to Redux.672d4772.js133978471915096479 0
+100C:\Users\Admin\Desktop\Redux Champion\redux\00 Intro to Redux\dist\00 Intro to Redux.672d4772.js.map133978471915227969 0
