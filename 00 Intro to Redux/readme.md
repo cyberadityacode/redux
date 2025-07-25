@@ -11,3 +11,15 @@ To Run parcel (make sure to remove main key)
 npx parcel index.html
 
 npm install redux
+
+
+In Redux, the subscribe function is used to listen for changes in the store's state. It allows components or other parts of your application to be notified whenever an action is dispatched and the state changes.
+
+```js
+const unsubscribe = store.subscribe(listener);
+```
+
+listener: A callback function that gets called every time an action is dispatched and the state may have changed.
+
+unsubscribe: A function that you can call to stop listening for updates.
+
