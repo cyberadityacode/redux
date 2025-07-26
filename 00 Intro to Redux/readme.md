@@ -23,3 +23,16 @@ listener: A callback function that gets called every time an action is dispatche
 
 unsubscribe: A function that you can call to stop listening for updates.
 
+
+---
+
+To Connect our application with Redux DevTools
+
+const store = createStore(reducer, window.__REDUX_DEVTOOLS_EXTENSION__?.());
+
+we have used optional chaining, to prevent error log due to absense of redux devtools extension.
+
+This function "window.__REDUX_DEVTOOLS_EXTENSION__?.()" is called store enhancer.
+
+
+

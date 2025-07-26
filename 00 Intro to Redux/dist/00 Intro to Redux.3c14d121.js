@@ -668,6 +668,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"kTBnD":[function(require,module,exports,__globalThis) {
 var _redux = require("redux");
+const postCountElement = document.querySelector(".post-count");
 console.log((0, _redux.createStore));
 let initialState = {
     count: 0,
@@ -739,7 +740,7 @@ initialState = reducer(initialState, {
     payload: 7
 });
 console.log(initialState);
-const store = (0, _redux.createStore)(reducer);
+const store = (0, _redux.createStore)(reducer, window.__REDUX_DEVTOOLS_EXTENSION__?.());
 console.log(store);
 console.log(store.getState());
 store.dispatch({
@@ -753,6 +754,14 @@ whenever an action is dispatched, subscribe method is called automatically.
 
 */ store.subscribe(()=>{
     console.log(store.getState()); // Whenever store state gets altered, it get consoled
+    postCountElement.innerText = store.getState().count;
+});
+postCountElement.innerText = store.getState().count;
+postCountElement.addEventListener("click", function() {
+    store.dispatch({
+        type: "count/incrementBy",
+        payload: 10
+    });
 });
 store.dispatch({
     type: "count/incrementBy",

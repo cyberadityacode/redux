@@ -1,5 +1,7 @@
 import { createStore } from "redux";
 
+const postCountElement = document.querySelector(".post-count");
+
 console.log(createStore);
 
 let initialState = {
@@ -64,7 +66,7 @@ initialState = reducer(initialState, { type: "count/decrease" });
 initialState = reducer(initialState, { type: "count/incrementBy", payload: 7 });
 console.log(initialState);
 
-const store = createStore(reducer);
+const store = createStore(reducer, window.__REDUX_DEVTOOLS_EXTENSION__?.());
 
 console.log(store);
 console.log(store.getState());
@@ -81,6 +83,13 @@ whenever an action is dispatched, subscribe method is called automatically.
 
 store.subscribe(() => {
   console.log(store.getState()); // Whenever store state gets altered, it get consoled
+  postCountElement.innerText = store.getState().count;
+});
+
+postCountElement.innerText = store.getState().count;
+
+postCountElement.addEventListener("click", function () {
+  store.dispatch({ type: "count/incrementBy", payload: 10 });
 });
 
 store.dispatch({ type: "count/incrementBy", payload: 10 });
