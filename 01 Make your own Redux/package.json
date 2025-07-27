@@ -1,0 +1,14 @@
+{
+  "name": "01-make-your-own-redux",
+  "version": "1.0.0",
+  "description": "A basic project to implement Redux from scratch",
+  
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "redux": "^5.0.1"
+  }
+}
