@@ -30,6 +30,10 @@ function reducer(state = initialState, action) {
   }
 }
 
-myStore.dispatch({ type: INCREASE});
-myStore.dispatch({ type: INCREMENT_BY , payload : 1077});
+myStore.subscribe(() => {
+  console.log("State changed:", myStore.getState());
+});
+
+myStore.dispatch({ type: INCREASE });
+myStore.dispatch({ type: INCREMENT_BY, payload: 1077 });
 console.log(myStore.getState());

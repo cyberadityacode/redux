@@ -702,6 +702,9 @@ function reducer(state = initialState, action) {
             return state;
     }
 }
+myStore.subscribe(()=>{
+    console.log("State changed:", myStore.getState());
+});
 myStore.dispatch({
     type: INCREASE
 });
@@ -716,6 +719,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "myCreateStore", ()=>myCreateStore);
 function myCreateStore(reducer) {
+    const listeners = [];
     let state;
     const store = {
         getState () {
@@ -723,9 +727,18 @@ function myCreateStore(reducer) {
         },
         dispatch (action) {
             state = reducer(state, action);
+            listeners.forEach((listener)=>{
+                listener();
+            });
         },
-        subscribe () {}
+        subscribe (listener) {
+            listeners.push(listener);
+        }
     };
+    // Initialize state by dispatching a dummy action
+    store.dispatch({
+        type: "@@INIT"
+    });
     return store;
 }
 
